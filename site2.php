@@ -144,7 +144,7 @@ Answer: <?php echo $_GET["num1"] + $_GET["num2"] ?>
     $friends[9] = "Jordan";
     echo $friends[9]."<br>";
 
-    echo count($friends); //Count how many ADDED elements in the array (?)
+    echo count($friends); //Count how many elements are in the array 
 ?>
 
 <!-------------------------------------------------------------------------------->

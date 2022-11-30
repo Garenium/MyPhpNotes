@@ -159,3 +159,41 @@
     echo "<h1>3.3 WHILE LOOPS</h1>";
     echo "<hr>";
 ?>
+
+<?php 
+    echo "It's like other C-based programming languages.<br>";
+    echo "A while loop with the conditional \$index <= 5<br>";
+    $index = 1;
+    while($index <= 5){
+        echo "$index <br>";
+        $index++;
+    }
+
+    echo "<br>A do-while loop with the conditional \$index >= 1<br>";
+    do{
+        echo "$index <br>";
+        $index--;
+    }while($index >= 1);
+
+?>
+
+<!-------------------------------------------------------------------------------->
+<!--3.4 FOR LOOPS-->
+<?php
+    echo "<h1>3.4 FOR LOOPS</h1>";
+    echo "<hr>";
+?>
+
+<?php
+    echo "Done with for(\$i = 0; \$i < 5; \$i++)<br>";
+    for($i = 0; $i < 5; $i++){
+        echo "\$i = $i<br>";
+    }
+
+    echo "You can iterate over arrays. Nothing surprising<br>";
+    $array = array(2, 5, 6, 2, 61, 1);
+    for($i = 0; $i < count($array); $i++){
+        echo "\$array[$i] = $array[$i]<br>";
+    }
+?>
+
